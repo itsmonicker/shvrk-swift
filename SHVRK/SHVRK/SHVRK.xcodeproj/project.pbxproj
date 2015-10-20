@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDB553751BD669E000DBA708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB553741BD669E000DBA708 /* AppDelegate.swift */; };
+		DDB553771BD669E000DBA708 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB553761BD669E000DBA708 /* RootViewController.swift */; };
+		DDB553791BD669E000DBA708 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB553781BD669E000DBA708 /* DataViewController.swift */; };
+		DDB5537B1BD669E000DBA708 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB5537A1BD669E000DBA708 /* ModelController.swift */; };
+		DDB5537E1BD669E000DBA708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB5537C1BD669E000DBA708 /* Main.storyboard */; };
+		DDB553801BD669E000DBA708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB5537F1BD669E000DBA708 /* Assets.xcassets */; };
+		DDB553831BD669E000DBA708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB553811BD669E000DBA708 /* LaunchScreen.storyboard */; };
+		DDB5538E1BD669E000DBA708 /* SHVRKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB5538D1BD669E000DBA708 /* SHVRKTests.swift */; };
+		DDB553991BD669E000DBA708 /* SHVRKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB553981BD669E000DBA708 /* SHVRKUITests.swift */; };
+		DDB553A71BD67BF000DBA708 /* shvrk-behance1.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB553A61BD67BF000DBA708 /* shvrk-behance1.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDB5538A1BD669E000DBA708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB553691BD669DF00DBA708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB553701BD669E000DBA708;
+			remoteInfo = SHVRK;
+		};
+		DDB553951BD669E000DBA708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB553691BD669DF00DBA708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB553701BD669E000DBA708;
+			remoteInfo = SHVRK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDB553711BD669E000DBA708 /* SHVRK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHVRK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB553741BD669E000DBA708 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDB553761BD669E000DBA708 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		DDB553781BD669E000DBA708 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		DDB5537A1BD669E000DBA708 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		DDB5537D1BD669E000DBA708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDB5537F1BD669E000DBA708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDB553821BD669E000DBA708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDB553841BD669E000DBA708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB553891BD669E000DBA708 /* SHVRKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHVRKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB5538D1BD669E000DBA708 /* SHVRKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHVRKTests.swift; sourceTree = "<group>"; };
+		DDB5538F1BD669E000DBA708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB553941BD669E000DBA708 /* SHVRKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHVRKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB553981BD669E000DBA708 /* SHVRKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHVRKUITests.swift; sourceTree = "<group>"; };
+		DDB5539A1BD669E000DBA708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB553A61BD67BF000DBA708 /* shvrk-behance1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shvrk-behance1.png"; path = "../../../../Documents/NYCMediaLab/shvrk-behance1.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB5536E1BD669E000DBA708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB553861BD669E000DBA708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB553911BD669E000DBA708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB553681BD669DF00DBA708 = {
+			isa = PBXGroup;
+			children = (
+				DDB553731BD669E000DBA708 /* SHVRK */,
+				DDB5538C1BD669E000DBA708 /* SHVRKTests */,
+				DDB553971BD669E000DBA708 /* SHVRKUITests */,
+				DDB553721BD669E000DBA708 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB553721BD669E000DBA708 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB553711BD669E000DBA708 /* SHVRK.app */,
+				DDB553891BD669E000DBA708 /* SHVRKTests.xctest */,
+				DDB553941BD669E000DBA708 /* SHVRKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB553731BD669E000DBA708 /* SHVRK */ = {
+			isa = PBXGroup;
+			children = (
+				DDB553741BD669E000DBA708 /* AppDelegate.swift */,
+				DDB553761BD669E000DBA708 /* RootViewController.swift */,
+				DDB553781BD669E000DBA708 /* DataViewController.swift */,
+				DDB5537A1BD669E000DBA708 /* ModelController.swift */,
+				DDB5537C1BD669E000DBA708 /* Main.storyboard */,
+				DDB553A61BD67BF000DBA708 /* shvrk-behance1.png */,
+				DDB5537F1BD669E000DBA708 /* Assets.xcassets */,
+				DDB553811BD669E000DBA708 /* LaunchScreen.storyboard */,
+				DDB553841BD669E000DBA708 /* Info.plist */,
+			);
+			path = SHVRK;
+			sourceTree = "<group>";
+		};
+		DDB5538C1BD669E000DBA708 /* SHVRKTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDB5538D1BD669E000DBA708 /* SHVRKTests.swift */,
+				DDB5538F1BD669E000DBA708 /* Info.plist */,
+			);
+			path = SHVRKTests;
+			sourceTree = "<group>";
+		};
+		DDB553971BD669E000DBA708 /* SHVRKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDB553981BD669E000DBA708 /* SHVRKUITests.swift */,
+				DDB5539A1BD669E000DBA708 /* Info.plist */,
+			);
+			path = SHVRKUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB553701BD669E000DBA708 /* SHVRK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB5539D1BD669E000DBA708 /* Build configuration list for PBXNativeTarget "SHVRK" */;
+			buildPhases = (
+				DDB5536D1BD669E000DBA708 /* Sources */,
+				DDB5536E1BD669E000DBA708 /* Frameworks */,
+				DDB5536F1BD669E000DBA708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHVRK;
+			productName = SHVRK;
+			productReference = DDB553711BD669E000DBA708 /* SHVRK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDB553881BD669E000DBA708 /* SHVRKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB553A01BD669E000DBA708 /* Build configuration list for PBXNativeTarget "SHVRKTests" */;
+			buildPhases = (
+				DDB553851BD669E000DBA708 /* Sources */,
+				DDB553861BD669E000DBA708 /* Frameworks */,
+				DDB553871BD669E000DBA708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB5538B1BD669E000DBA708 /* PBXTargetDependency */,
+			);
+			name = SHVRKTests;
+			productName = SHVRKTests;
+			productReference = DDB553891BD669E000DBA708 /* SHVRKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDB553931BD669E000DBA708 /* SHVRKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB553A31BD669E000DBA708 /* Build configuration list for PBXNativeTarget "SHVRKUITests" */;
+			buildPhases = (
+				DDB553901BD669E000DBA708 /* Sources */,
+				DDB553911BD669E000DBA708 /* Frameworks */,
+				DDB553921BD669E000DBA708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB553961BD669E000DBA708 /* PBXTargetDependency */,
+			);
+			name = SHVRKUITests;
+			productName = SHVRKUITests;
+			productReference = DDB553941BD669E000DBA708 /* SHVRKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB553691BD669DF00DBA708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Monica;
+				TargetAttributes = {
+					DDB553701BD669E000DBA708 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					DDB553881BD669E000DBA708 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DDB553701BD669E000DBA708;
+					};
+					DDB553931BD669E000DBA708 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DDB553701BD669E000DBA708;
+					};
+				};
+			};
+			buildConfigurationList = DDB5536C1BD669DF00DBA708 /* Build configuration list for PBXProject "SHVRK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB553681BD669DF00DBA708;
+			productRefGroup = DDB553721BD669E000DBA708 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB553701BD669E000DBA708 /* SHVRK */,
+				DDB553881BD669E000DBA708 /* SHVRKTests */,
+				DDB553931BD669E000DBA708 /* SHVRKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB5536F1BD669E000DBA708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB553831BD669E000DBA708 /* LaunchScreen.storyboard in Resources */,
+				DDB553801BD669E000DBA708 /* Assets.xcassets in Resources */,
+				DDB5537E1BD669E000DBA708 /* Main.storyboard in Resources */,
+				DDB553A71BD67BF000DBA708 /* shvrk-behance1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB553871BD669E000DBA708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB553921BD669E000DBA708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB5536D1BD669E000DBA708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB553771BD669E000DBA708 /* RootViewController.swift in Sources */,
+				DDB5537B1BD669E000DBA708 /* ModelController.swift in Sources */,
+				DDB553791BD669E000DBA708 /* DataViewController.swift in Sources */,
+				DDB553751BD669E000DBA708 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB553851BD669E000DBA708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB5538E1BD669E000DBA708 /* SHVRKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB553901BD669E000DBA708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB553991BD669E000DBA708 /* SHVRKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDB5538B1BD669E000DBA708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDB553701BD669E000DBA708 /* SHVRK */;
+			targetProxy = DDB5538A1BD669E000DBA708 /* PBXContainerItemProxy */;
+		};
+		DDB553961BD669E000DBA708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDB553701BD669E000DBA708 /* SHVRK */;
+			targetProxy = DDB553951BD669E000DBA708 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDB5537C1BD669E000DBA708 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB5537D1BD669E000DBA708 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDB553811BD669E000DBA708 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB553821BD669E000DBA708 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB5539B1BD669E000DBA708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB5539C1BD669E000DBA708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB5539E1BD669E000DBA708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				INFOPLIST_FILE = SHVRK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = k.SHVRK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDB5539F1BD669E000DBA708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				INFOPLIST_FILE = SHVRK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = k.SHVRK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDB553A11BD669E000DBA708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SHVRKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = k.SHVRKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHVRK.app/SHVRK";
+			};
+			name = Debug;
+		};
+		DDB553A21BD669E000DBA708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SHVRKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = k.SHVRKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHVRK.app/SHVRK";
+			};
+			name = Release;
+		};
+		DDB553A41BD669E000DBA708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SHVRKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = k.SHVRKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SHVRK;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DDB553A51BD669E000DBA708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SHVRKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = k.SHVRKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SHVRK;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB5536C1BD669DF00DBA708 /* Build configuration list for PBXProject "SHVRK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB5539B1BD669E000DBA708 /* Debug */,
+				DDB5539C1BD669E000DBA708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB5539D1BD669E000DBA708 /* Build configuration list for PBXNativeTarget "SHVRK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB5539E1BD669E000DBA708 /* Debug */,
+				DDB5539F1BD669E000DBA708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDB553A01BD669E000DBA708 /* Build configuration list for PBXNativeTarget "SHVRKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB553A11BD669E000DBA708 /* Debug */,
+				DDB553A21BD669E000DBA708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDB553A31BD669E000DBA708 /* Build configuration list for PBXNativeTarget "SHVRKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB553A41BD669E000DBA708 /* Debug */,
+				DDB553A51BD669E000DBA708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB553691BD669DF00DBA708 /* Project object */;
+}
