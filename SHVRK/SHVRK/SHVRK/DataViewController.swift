@@ -10,13 +10,27 @@ import UIKit
 
 class DataViewController: UIViewController {
 
-    @IBOutlet var phoneNumber: UITextField!
-    @IBOutlet weak var dataLabel: UILabel!
-    var dataObject: String = "phoneNumber"
+    @IBOutlet weak var dataLabel: UILabel!;
+    let dataObject: String = "SHVRK";
 
+    @IBOutlet weak var thepicture: UIImageView!;
+    
+    @IBOutlet var phoneNumber: UITextField!;
+    @IBOutlet var genderfield: UITextField!;
 
+    @IBAction func buttonwaspressed(sender: AnyObject) {
+        print("i clicked the button!");
+        let phonenumber: String = phoneNumber.text!;
+        let gender: String = genderfield.text!;
+        print("phone number is: " + phonenumber);
+        print("gender is: " + gender);
+        
+        // insert crap here to talk to database and make a new user
+        
+    }
     override func viewDidLoad() {
-        super.viewDidLoad()
+        // this is the function that runs when it gets the view happening
+        super.viewDidLoad();
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -26,8 +40,14 @@ class DataViewController: UIViewController {
     }
 
     override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-        self.dataLabel!.text = dataObject
+        super.viewWillAppear(animated);
+        
+        self.dataLabel!.text = dataObject;
+
+        let image = UIImage(named: "shvrk-behance1.png");
+        thepicture.image = image;
+
+        
     }
 
 
