@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD67C8481BD694AA0077E2DB /* shvrk-behance1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD67C8471BD694AA0077E2DB /* shvrk-behance1.png */; settings = {ASSET_TAGS = (); }; };
 		DDB553751BD669E000DBA708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB553741BD669E000DBA708 /* AppDelegate.swift */; };
 		DDB553771BD669E000DBA708 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB553761BD669E000DBA708 /* RootViewController.swift */; };
 		DDB553791BD669E000DBA708 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB553781BD669E000DBA708 /* DataViewController.swift */; };
@@ -16,7 +17,6 @@
 		DDB553831BD669E000DBA708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB553811BD669E000DBA708 /* LaunchScreen.storyboard */; };
 		DDB5538E1BD669E000DBA708 /* SHVRKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB5538D1BD669E000DBA708 /* SHVRKTests.swift */; };
 		DDB553991BD669E000DBA708 /* SHVRKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB553981BD669E000DBA708 /* SHVRKUITests.swift */; };
-		DDB553A71BD67BF000DBA708 /* shvrk-behance1.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB553A61BD67BF000DBA708 /* shvrk-behance1.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD67C8471BD694AA0077E2DB /* shvrk-behance1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shvrk-behance1.png"; path = "Assets.xcassets/shvrk-behance1.imageset/shvrk-behance1.png"; sourceTree = "<group>"; };
 		DDB553711BD669E000DBA708 /* SHVRK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHVRK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB553741BD669E000DBA708 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDB553761BD669E000DBA708 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		DDB553941BD669E000DBA708 /* SHVRKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHVRKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB553981BD669E000DBA708 /* SHVRKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHVRKUITests.swift; sourceTree = "<group>"; };
 		DDB5539A1BD669E000DBA708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDB553A61BD67BF000DBA708 /* shvrk-behance1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shvrk-behance1.png"; path = "../../../../Documents/NYCMediaLab/shvrk-behance1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				DDB553781BD669E000DBA708 /* DataViewController.swift */,
 				DDB5537A1BD669E000DBA708 /* ModelController.swift */,
 				DDB5537C1BD669E000DBA708 /* Main.storyboard */,
-				DDB553A61BD67BF000DBA708 /* shvrk-behance1.png */,
+				DD67C8471BD694AA0077E2DB /* shvrk-behance1.png */,
 				DDB5537F1BD669E000DBA708 /* Assets.xcassets */,
 				DDB553811BD669E000DBA708 /* LaunchScreen.storyboard */,
 				DDB553841BD669E000DBA708 /* Info.plist */,
@@ -240,7 +240,7 @@
 				DDB553831BD669E000DBA708 /* LaunchScreen.storyboard in Resources */,
 				DDB553801BD669E000DBA708 /* Assets.xcassets in Resources */,
 				DDB5537E1BD669E000DBA708 /* Main.storyboard in Resources */,
-				DDB553A71BD67BF000DBA708 /* shvrk-behance1.png in Resources */,
+				DD67C8481BD694AA0077E2DB /* shvrk-behance1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +497,7 @@
 				DDB5539F1BD669E000DBA708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDB553A01BD669E000DBA708 /* Build configuration list for PBXNativeTarget "SHVRKTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +506,7 @@
 				DDB553A21BD669E000DBA708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDB553A31BD669E000DBA708 /* Build configuration list for PBXNativeTarget "SHVRKUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +515,7 @@
 				DDB553A51BD669E000DBA708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
