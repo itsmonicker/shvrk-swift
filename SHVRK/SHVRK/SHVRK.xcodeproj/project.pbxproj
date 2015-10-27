@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD67C8481BD694AA0077E2DB /* shvrk-behance1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD67C8471BD694AA0077E2DB /* shvrk-behance1.png */; settings = {ASSET_TAGS = (); }; };
+		DDAB9A171BDF47F300967D7B /* conn.php in Resources */ = {isa = PBXBuildFile; fileRef = DDAB9A161BDF47F300967D7B /* conn.php */; settings = {ASSET_TAGS = (); }; };
 		DDB553751BD669E000DBA708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB553741BD669E000DBA708 /* AppDelegate.swift */; };
 		DDB553771BD669E000DBA708 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB553761BD669E000DBA708 /* RootViewController.swift */; };
 		DDB553791BD669E000DBA708 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB553781BD669E000DBA708 /* DataViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		DD67C8471BD694AA0077E2DB /* shvrk-behance1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shvrk-behance1.png"; path = "Assets.xcassets/shvrk-behance1.imageset/shvrk-behance1.png"; sourceTree = "<group>"; };
+		DDAB9A161BDF47F300967D7B /* conn.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = conn.php; sourceTree = "<group>"; };
 		DDB553711BD669E000DBA708 /* SHVRK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHVRK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB553741BD669E000DBA708 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDB553761BD669E000DBA708 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				DDB5537A1BD669E000DBA708 /* ModelController.swift */,
 				DDB5537C1BD669E000DBA708 /* Main.storyboard */,
 				DD67C8471BD694AA0077E2DB /* shvrk-behance1.png */,
+				DDAB9A161BDF47F300967D7B /* conn.php */,
 				DDB5537F1BD669E000DBA708 /* Assets.xcassets */,
 				DDB553811BD669E000DBA708 /* LaunchScreen.storyboard */,
 				DDB553841BD669E000DBA708 /* Info.plist */,
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDAB9A171BDF47F300967D7B /* conn.php in Resources */,
 				DDB553831BD669E000DBA708 /* LaunchScreen.storyboard in Resources */,
 				DDB553801BD669E000DBA708 /* Assets.xcassets in Resources */,
 				DDB5537E1BD669E000DBA708 /* Main.storyboard in Resources */,
