@@ -31,10 +31,10 @@
                 $this->conn->close();
         }
         
-        public function getUserDetails($email)
+        public function getUserDetails($phone)
         {
             $returnValue = array();
-            $sql = "select * from users where user_email='" . $email . "'";
+            $sql = "select * from users where userPhone='" . $phone . "'";
             
             $result = $this->conn->query($sql);
             if ($result != null && (mysqli_num_rows($result) >= 1)) {
@@ -46,7 +46,7 @@
             return $returnValue;
         }
         
-        public function getUserDetailsWithPassword($email, $userPassword)
+        public function getUserDetailsWithPassword($phone, $userPassword)
         {
             $returnValue = array();
             $sql = "select id,userPhone from users where userPhone='" . $email . "' and userPassword='" .$userPassword . "'";
@@ -61,7 +61,7 @@
             return $returnValue;
         }
         
-        public function registerUser($email, $password)
+        public function registerUser($phone, $password)
         {
             $sql = "insert into users set userPhone=?, userPassword=?";
             $statement = $this->conn->prepare($sql);
@@ -69,7 +69,7 @@
             if (!$statement)
                 throw new Exception($statement->error);
             
-            $statement->bind_param("ss", $email, $password);
+            $statement->bind_param("ss", $phone, $password);
             $returnValue = $statement->execute();
             
             return $returnValue;
