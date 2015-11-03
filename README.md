@@ -2,41 +2,66 @@
 
 ## User-facing features for iOS, Android, web platform:
 
-1. Messages
-    *messages can be created, scheduled, and automated in the app
-    *messages appear as native SMS on recipient's phone
-    *should messages also appear in sender's native SMS app?
-    *messaging history is visible in app home screen calendar (nice-to-have?)
-Deadline: :(
+**Messages:**
 
-2. Calendars
-    *calendars synced to phone can be synced to app (iCalendar, Google Calendar)
-    *calendar for shark week can be created within app (or maybe via Google API, make Google Calendar, then sync like others)
-    *calendars can be cross-referenced on home screen calendar along with sent messages
-    *notifications can be modified for calendars (notify me [x] days [before/into] shark week)
-        *set reasonable upper limits on [x] days
-Deadline: :(
+ * messages can be created, scheduled, and automated in the app
+    
+ * messages appear as native SMS on recipient's phone
+    
+ * should messages also appear in sender's native SMS app?
+    
+ * messaging history is visible in app home screen calendar (nice-to-have?)
 
-3. Notifications
-    *push notifications or SMS messages from "SHVRK"
-    *allow user to create reminders to obtain hygiene stuff, flowers, chocolate, ice cream, whatever
-    *notify user when shark week is on the way (see '#2 Calendars')
-Deadline: this shouldn't be *too* hard... January 10
+*Deadline:* :(
 
-4. Facts
-    *facts show up as:
-        *tooltips or pop-ups for every significant event?
-        *SMS messages from "SHVRK" for every significant event?
-        *randomized internal banner?
-        *some other sweet artsy animated whatever
-        *should these simply be stored as an array on local app files? how many do you need? should they link to source?
-Deadline: this also shouldn't be *too* hard... January 10
+**Calendars:**
 
-5. Game
-    *p5 game that works for everybody: male, female, mono, poly, and those who haven't signed up (delayed sign-up necessary) 
-    *option of being multiplayer, or user leaderboard to make game universal
-    *based on classic and cult agmes: space invaders, pong, flappy birds, etc
-Deadline: December 15
+* calendars synced to phone can be synced to app (iCalendar, Google Calendar)
+    
+* calendar for shark week can be created within app (or maybe via Google API, make Google Calendar, then sync like others)
+    
+* calendars can be cross-referenced on home screen calendar along with sent messages
+    
+* notifications can be modified for calendars (notify me [x] days [before/into] shark week)
+
+   * set reasonable upper limits on [x] days
+        
+*Deadline: :(*
+
+**Notifications:**
+
+* push notifications or SMS messages from "SHVRK"
+
+* allow user to create reminders to obtain hygiene stuff, flowers, chocolate, ice cream, whatever
+
+* notify user when shark week is on the way (see '#2 Calendars')
+
+*Deadline:* this shouldn't be *too* hard... January 10
+
+**Facts**
+
+* facts show up as:
+      * tooltips or pop-ups for every significant event?
+      
+      * SMS messages from "SHVRK" for every significant event?
+      
+      * randomized internal banner?
+      
+      * some other sweet artsy animated whatever
+      
+      * should these simply be stored as an array on local app files? how many do you need? should they link to source?
+      
+*Deadline:* this also shouldn't be *too* hard... January 10
+
+**Game:**
+
+* p5 game that works for everybody: male, female, mono, poly, and those who haven't signed up (delayed sign-up necessary) 
+
+* option of being multiplayer, or user leaderboard to make game universal
+
+* based on classic and cult agmes: space invaders, pong, flappy birds, etc
+
+*Deadline:* December 15
     
 ## Challenges
 
