@@ -1,0 +1,39 @@
+body {
+    background: #231f20;
+    background: -webkit-linear-gradient(#353435, #353435, #353435, #231f20, #231f20, #231f20);
+    background: -moz-linear-gradient(#353435, #353435, #353435, #231f20, #231f20, #231f20);
+    background: linear-gradient(#353435, #353435, #353435, #231f20, #231f20, #231f20);
+    background-attachment: fixed;
+    font-family: 'Jura';
+    padding: 10%;
+    
+}
+
+h1 {
+    font-family: 'Jura', sans-serif;
+    font-size: 300%;
+    color: #000000;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+h3 {
+    font-family: 'Jura', sans-serif;
+    font-size: 100%;
+    color: #000000;
+    text-align: center;
+}
+
+textarea {
+    font-family: 'Jura', sans-serif;
+    font-size: 100%;
+}
+
+div {
+    align: center;
+}
+
+span {
+    color: #000000;
+}
