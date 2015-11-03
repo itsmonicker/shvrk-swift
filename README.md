@@ -36,7 +36,7 @@
 
 * notify user when shark week is on the way (see '#2 Calendars')
 
-*Deadline:* this shouldn't be *too* hard... January 10
+*Deadline:* this shouldn't be *too* hard... December 15
 
 **Facts**
 
@@ -51,7 +51,7 @@
       
       * should these simply be stored as an array on local app files? how many do you need? should they link to source?
       
-*Deadline:* this also shouldn't be *too* hard... January 10
+*Deadline:* this also shouldn't be *too* hard... December 15
 
 **Game:**
 
