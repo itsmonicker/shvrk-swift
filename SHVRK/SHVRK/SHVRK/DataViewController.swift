@@ -27,6 +27,21 @@ class DataViewController: UIViewController {
         
         // insert crap here to talk to database and make a new user
         
+        let sender: String = "luke";
+        let message: String = "hi there";
+   
+        //var urltext: String = "http://sites.bxmc.poly.edu/~lukedubois/teaching/testphp/shvrk.php?number="+phonenumber+"&sender="+sender+"&message="+message;
+    
+
+        var url: NSURL = NSURL(string: "http://sites.bxmc.poly.edu/~lukedubois/teaching/testphp/shvrk.php?number=9788061820&sender=luke&message=hi!")!
+        var rqst:NSMutableURLRequest = NSMutableURLRequest(URL:url)
+        
+        NSURLConnection.sendAsynchronousRequest(rqst, queue: NSOperationQueue.mainQueue()) {
+            (response, data, error) in
+            print(response)
+        }
+
+        
     }
     override func viewDidLoad() {
         // this is the function that runs when it gets the view happening
