@@ -6,9 +6,9 @@
 
  * messages can be created, scheduled, and automated in the app
   
- * sweet nothings can also be game powerups, images, searchable rom com quotes, searchable recipes, searchable food porn, verbs (hug, smooch, etc), enable slack's /giphy thing
+ * sweet nothings can also be game powerups, images, searchable rom com quotes, searchable recipes, searchable food porn, verbs (hug, smooch, etc), enable slack's /giphy thing, IOUs (cooking dinner, going out to dinner, movie night, etc)
  
- * randomly sent to text, email, game, maybe twitter
+ * first one is in-app notification, after that randomly sent to text, email, game, maybe twitter
  
  * sender is notified where they go, recipient is notified that there is one somewhere
     
