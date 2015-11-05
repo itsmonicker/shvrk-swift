@@ -2,13 +2,19 @@
 
 ## User-facing features for iOS, Android, web platform:
 
-**Messages:**
+**~~Messages~~ Sweet Nothings:**
 
  * messages can be created, scheduled, and automated in the app
+  
+ * sweet nothings can also be game powerups, images, whatever
+ 
+ * randomly sent to text, email, game, maybe twitter (like fb gifts)
+ 
+ * sender is notified where they go, recipient is notified that there is one somewhere
     
- * messages appear as native SMS on recipient's phone
+ * ~~messages appear as native SMS on recipient's phone~~
     
- * should messages also appear in sender's native SMS app?
+ * ~~should messages also appear in sender's native SMS app?~~
     
  * messaging history is visible in app home screen calendar (nice-to-have?)
 
@@ -22,17 +28,15 @@
     
 * calendars can be cross-referenced on home screen calendar along with sent messages
     
-* notifications can be modified for calendars (notify me [x] days [before/into] shark week)
+* ~~notifications can be modified for calendars (notify me [x] days [before/into] shark week)~~
 
-   * set reasonable upper limits on [x] days
+* notifications arrive two days before for all parties, with wording like "hey, need to pick anything up?"
         
-*Deadline: :(*
+*Deadline: Jan 31*
 
 **Notifications:**
 
 * push notifications or SMS messages from "SHVRK"
-
-* allow user to create reminders to obtain hygiene stuff, flowers, chocolate, ice cream, whatever
 
 * notify user when shark week is on the way (see '#2 Calendars')
 
@@ -59,7 +63,7 @@
 
 * option of being multiplayer, or user leaderboard to make game universal
 
-* based on classic and cult agmes: space invaders, pong, flappy birds, etc
+* based on classic and cult games: space invaders, pong, flappy birds, etc
 
 *Deadline:* December 15
     
@@ -67,7 +71,7 @@
 
 1. Which language is best to embed API in Swift?
 2. Is a user db outside Twilio necessary? [How users message each other using Twilio accounts](https://www.twilio.com/help/faq/sms/how-can-i-have-users-send-text-messages-to-each-other-over-twilio)
-3. How to personalize Twilio numbers to make it look like users are messaging each other? [How to create alphanumeric contact for Twilio account](https://www.twilio.com/help/faq/sms/what-is-alphanumeric-sender-id-and-how-do-i-get-started) and [What contact info recipients see](https://www.twilio.com/help/faq/sms/can-i-specify-the-phone-number-a-recipient-sees-when-getting-an-sms-from-my-twilio-app) and [More on the 'from' attribute](https://www.twilio.com/docs/api/twiml/sms/message#attributes-from)
+3. [How to create alphanumeric contact for Twilio account](https://www.twilio.com/help/faq/sms/what-is-alphanumeric-sender-id-and-how-do-i-get-started) and [What contact info recipients see](https://www.twilio.com/help/faq/sms/can-i-specify-the-phone-number-a-recipient-sees-when-getting-an-sms-from-my-twilio-app) and [More on the 'from' attribute](https://www.twilio.com/docs/api/twiml/sms/message#attributes-from)
 4. Should app create Twilio account for each user?
 5. [Twilio numbers are not considered mobile phone numbers](https://www.twilio.com/help/faq/sms/can-i-send-messages-from-facebook-and-other-services-to-twilio)
 6. [This looks like another roadblock](https://www.twilio.com/help/faq/sms/is-there-a-way-to-use-alphanumeric-sender-id-with-messaging-services) but no idea what it means
