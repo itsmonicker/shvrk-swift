@@ -1,6 +1,8 @@
 <?php
 
-echo "hi there!<br>";
+$sweetNothings = Array ("hello1", "hello2", "hello3", "hello4", "hello5");
+
+echo $sweetNothings[array_rand($sweetNothings)];
 
 parse_str(parse_url($_SERVER['REQUEST_URI'], PHP_URL_QUERY), $query);
 
