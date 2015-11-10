@@ -15,30 +15,55 @@ class DataViewController: UIViewController {
 
     @IBOutlet weak var thepicture: UIImageView!;
     
+    // these are the variables bound to the DATA for the
+    // two text entry fields on the screen:
     @IBOutlet var phoneNumber: UITextField!;
     @IBOutlet var genderfield: UITextField!;
-
+    
+    // this shit fires when we hit the button:
     @IBAction func buttonwaspressed(sender: AnyObject) {
+        
+        // feel good move:
         print("i clicked the button!");
+        
+        // get the text inside the two text entry fields:
         let phonenumber: String = phoneNumber.text!;
-        let gender: String = genderfield.text!;
+        let message: String = genderfield.text!;
+        
+        // another feel good move:
         print("phone number is: " + phonenumber);
-        print("gender is: " + gender);
+        print("message is: " + message);
         
         // insert crap here to talk to database and make a new user
         
+        // this is the sender field:
         let sender: String = "luke";
-        let message: String = "hi there";
    
-        //var urltext: String = "http://sites.bxmc.poly.edu/~lukedubois/teaching/testphp/shvrk.php?number="+phonenumber+"&sender="+sender+"&message="+message;
-    
+        // this is our url
+        let urltext: String = "http://sites.bxmc.poly.edu/~lukedubois/teaching/testphp/shvrk.php?number="+phonenumber+"&sender="+sender+"&message="+message;
 
-        var url: NSURL = NSURL(string: "http://sites.bxmc.poly.edu/~lukedubois/teaching/testphp/shvrk.php?number=9788061820&sender=luke&message=hi!")!
-        var rqst:NSMutableURLRequest = NSMutableURLRequest(URL:url)
+        // longest method ever (fix the fucking spaces):
+        let realurltext : String = urltext.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())!;
         
+        // another feel good move:
+        print(realurltext); // fuck these people
+        
+        //
+        // this is the internet:
+        //
+        
+        // this is a full URL (including other jazz besides the url text):
+        let url: NSURL = NSURL(string: realurltext)!
+        
+        // this turns everything into a request:
+        let rqst:NSMutableURLRequest = NSMutableURLRequest(URL:url)
+        
+        // this actually sends the request:
         NSURLConnection.sendAsynchronousRequest(rqst, queue: NSOperationQueue.mainQueue()) {
             (response, data, error) in
-            print(response)
+            // convert the data from the http response to a string and print it:
+            let realstuff = NSString(data: data!, encoding: NSUTF8StringEncoding)!;
+            print(realstuff);
         }
 
         
